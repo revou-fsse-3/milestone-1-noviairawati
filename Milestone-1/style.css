@@ -436,10 +436,10 @@ header {
 
 
 .doctors_header {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 2rem; */
 }
 
 .doctors_header_content p {
@@ -548,4 +548,17 @@ footer .share a {
 /* Change the color of links on hover */
 footer .share a:hover {
     background-color: var(--white);
+}
+
+.doctors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
