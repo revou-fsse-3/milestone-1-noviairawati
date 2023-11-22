@@ -416,7 +416,7 @@ body.dark {
 .gallery .container {
     max-width: var(--max-widht);
     height: auto;
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 2vmin;
@@ -535,10 +535,6 @@ body.dark {
 
 .booking .row .image {
     flex: 1 1 45rem;
-}
-
-.booking .row .image img {
-    width: 100%;
 }
 
 .booking .row .image img {
@@ -679,12 +675,12 @@ body.dark {
     align-items: center;
 }
 
-.why_content h2 {
+.why_content h1 {
     margin-bottom: 2rem;
     color: var(--text-light);
 }
 
-.why_content h3 {
+.why_content h3 ul li {
     margin-bottom: 1.5rem;
     color: var(--black);
 }
@@ -810,7 +806,6 @@ body.dark {
     }
 
     
-
     .gallery .container {
         display: initial;
         grid-template-columns: repeat(2, 1fr);
