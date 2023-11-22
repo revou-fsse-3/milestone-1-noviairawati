@@ -12,25 +12,22 @@
     <link rel="stylesheet" href="style.css" />
     <title>Medira Hospital</title>
 </head>
-
 <body>
-
     <!-- Header Section Starts -->
     <header>
         <section class="header">
             <div class="logo">Medira <span>Hospital</span></div>
             <div class="toggle"></div>
-                <nav class="navbar">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Medical Check Up</a>
-                <a href="#">Our Doctors</a>
-                <a href="#">Article</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#review">Patient's Review</a>
+                <a href="#doctors">Our Doctors</a>
             </nav>
             <div id="menu-btn" class="fas fa-bars"></div>
         </section>
-        
     </header>
     <!-- Header Section Ends -->
 
@@ -40,27 +37,27 @@
     <main>
         <section class="home" id="home">
             <div class="home-back">
-<img src="IMG/background1.jpg" alt="background">
+                <img src="IMG/background1.jpg" alt="background">
             </div>
             <div class="main-home">
-<div class="main-inner-home">
-<h2>Choose the Right Urgent Care</h2>
-<h1>Best Medical Services</h1>
-<p> Welcome, your health is our priority.
-    We make life easier for patients. We are a one-stop urgent care center, offering comprehensive
-    medical care, imaging services, diagnostic testing, and coming soon, a full-service pharmacy
-    on-site.
-    You will have access to follow-up care from more than 18 specialty services in the same
-    convenient location. From family medicine and pediatrics to gynecology, orthopedics, and cancer
-    care, find the care you need after your walk-in care visit.</p>
-</div>
+                <div class="main-inner-home">
+                    <h2>Choose the Right Urgent Care</h2>
+                    <h1>Best Medical Services</h1>
+                    <p> Welcome, your health is our priority.
+                        We make life easier for patients. We are a one-stop urgent care center, offering comprehensive
+                        medical care, imaging services, diagnostic testing, and coming soon, a full-service pharmacy
+                        on-site.
+                        You will have access to follow-up care from more than 18 specialty services in the same
+                        convenient location. From family medicine and pediatrics to gynecology, orthopedics, and cancer
+                        care, find the care you need after your walk-in care visit.</p>
+                </div>
 
-<div class="main-inner-home">
-<div class="right-content-img">
-    <img src="IMG/home.jpg" alt="home">
-</div>
+                <div class="main-inner-home">
+                    <div class="right-content-img">
+                        <img src="IMG/home.jpg" alt="home">
+                    </div>
 
-</div>
+                </div>
             </div>
         </section>
         <!-- Home section Ends -->
@@ -132,11 +129,42 @@
                 <a href="#" class="btn"> Learn More <span class="fas fa-chevron-right"></span></a>
             </div>
         </div>
-
         </div>
         </div>
     </section>
     <!-- About Us Section Ends -->
+
+    <!-- Why Choose Us Starts-->
+    <section class="why_us" id="why_us">
+        <h1 class="heading">Why <span>Choose Us?</span></h1>
+        <div class="why_container">
+            <div class="why_content">
+                <h2 class="section_header">Why Us?</h2>
+                <p>
+                <h3>
+                    <ul>
+                        <li>Comprehensive Care: Medira Hospital is your one-stop destination for comprehensive
+                            healthcare.
+                            From primary care to specialized services, we offer a wide range of medical expertise,
+                            ensuring
+                            that all your health needs are met under one roof.</li>
+                        <li>Expert Medical Team: Our hospital is proud to host a team of highly skilled and experienced
+                            doctors, nurses, and support staff. Each member of our healthcare family is dedicated to
+                            providing the highest standard of medical care across various specialties, ensuring you
+                            receive
+                            expert attention.</li>
+                        <li>Cutting-edge Technology: Medira Hospital is committed to staying at the forefront of medical
+                            advancements. We invest in state-of-the-art technology and modern equipment to offer you the
+                            latest and most effective treatments, diagnostics, and surgical procedures.</li>
+                </h3>
+                </p>
+            </div>
+            <div class="why_image">
+                <img src="IMG/whychooseus.jpg" alt="about">
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Ends-->
 
     <!-- Our Services Section Starts -->
     <section class="services" id="services">
@@ -340,29 +368,9 @@
     </section>
     <!-- Our Doctors Ends-->
 
-    <!-- Booking Start-->
-    <section class="booking" id="booking">
-        <h1 class="heading"><span>Book</span>Now</h1>
-        <div class="row">
-            <div class="image">
-                <img src="IMG/booking.avif" alt="booking">
-            </div>
-
-            <form action="">
-                <h3>Get Promo</h3>
-                <input type="text" placeholder="Full Name" class="box" required>
-                <input type="text" placeholder="Email" class="box" required>
-                <input type="text" placeholder="Address" class="box" required>
-                <input type="text" placeholder="Phone No." class="box" required>
-                <input type="submit" value="Book Appointment" class="btn">
-            </form>
-        </div>
-    </section>
-    <!-- Booking End-->
-
     <!-- Blog section Starts -->
     <section class="blogs" id="blogs">
-        <h1 class="heading">Our <span>Articles</span></h1>
+        <h1 class="heading">Our <span>Blogs</span></h1>
         <div class="box-container">
             <div class="box">
                 <div class="image">
@@ -425,7 +433,7 @@
                 <h3>Rabi</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
@@ -467,38 +475,26 @@
     </section>
     <!-- review section ends -->
 
-    <!-- Why Choose Us Starts-->
-    <section class="why_us" id="why_us">
-        <h1 class="heading">Why <span>Choose Us?</span></h1>
-        <div class="why_container">
-            <div class="why_content">
-                <h2 class="section_header">Why Us?</h2>
-                <p>
-                <h3>
-                    <ul>
-                        <li>Comprehensive Care: Medira Hospital is your one-stop destination for comprehensive
-                            healthcare.
-                            From primary care to specialized services, we offer a wide range of medical expertise,
-                            ensuring
-                            that all your health needs are met under one roof.</li>
-                        <li>Expert Medical Team: Our hospital is proud to host a team of highly skilled and experienced
-                            doctors, nurses, and support staff. Each member of our healthcare family is dedicated to
-                            providing the highest standard of medical care across various specialties, ensuring you
-                            receive
-                            expert attention.</li>
-                        <li>Cutting-edge Technology: Medira Hospital is committed to staying at the forefront of medical
-                            advancements. We invest in state-of-the-art technology and modern equipment to offer you the
-                            latest and most effective treatments, diagnostics, and surgical procedures.</li>
-                </h3>
-                </p>
+    <!-- Booking Start-->
+    <section class="booking" id="booking">
+        <h1 class="heading"><span>Book </span>Appointment</h1>
+        <div class="row">
+            <div class="image">
+                <img src="IMG/booking.avif" alt="booking">
             </div>
-            <div class="why_image">
-                <img src="IMG/whychooseus.jpg" alt="about">
-            </div>
+
+            <form action="">
+                <h3>Get Promo</h3>
+                <input type="text" placeholder="Full Name" class="box" required>
+                <input type="text" placeholder="Email" class="box" required>
+                <input type="text" placeholder="Address" class="box" required>
+                <input type="text" placeholder="Phone No." class="box" required>
+                <input type="submit" value="Book Now" class="btn">
+            </form>
         </div>
     </section>
     </main>
-    <!-- Why Choose Us Ends-->
+    <!-- Booking End-->
     <!-- Main section Ends -->
 
     <!-- footer section starts -->
@@ -529,7 +525,6 @@
                     <a href="#"><i class="fas fa-phone"></i>(621)84746484</a>
                     <a href="#"><i class="fas fa-envelope"></i>medira@hospital.com</a>
                     <a href="#"><i class="fas fa-map-marker-alt"></i>Jakarta, Indonesia</a>
-
                 </div>
 
                 <div class="box">
@@ -547,5 +542,4 @@
     <!--Javascript file link-->
     <script src="script.js"></script>
 </body>
-
 </html>
