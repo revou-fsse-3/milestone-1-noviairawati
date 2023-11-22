@@ -2,7 +2,7 @@ Hello, I m Novia Irawati
 
 I m glad to present my first mini project with theme : Hospital
 
-![web](image-20.png)
+![web](image-21.png)
 Here's my auto deploy from: netlify: [medirahospital](https://medirahospital.netlify.app/)
 
 Here's my subdomain : [Medira Hospital](https://medirahospital.noviairawati.site/)
@@ -94,7 +94,6 @@ click the "Deploying" button to continue.
 8. All Done
 Once the build completes, your site is live! Head to the overview and you can see the URL of your newly published site.
 ![12](image-19.png)
-![13](image-21.png)
 
 ## How to Setup Subdomain📰
 1. Choose "Domain Management"
@@ -110,7 +109,7 @@ Once the build completes, your site is live! Head to the overview and you can se
 
 ![5](image-28.png)
 
-![6](image-29.png)
+![6](image-34.png)
 
 ## How to Setup SSL/TSL Certificate📰
 1. Click "Force HTTPS"
