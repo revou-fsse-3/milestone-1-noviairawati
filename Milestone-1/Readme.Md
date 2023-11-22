@@ -2,7 +2,7 @@ Hello, I m Novia Irawati
 
 I m glad to present my first mini project with theme : Hospital
 
-![web](image-21.png)
+![web](image-34.png)
 Here's my auto deploy from: netlify: [medirahospital](https://medirahospital.netlify.app/)
 
 Here's my subdomain : [Medira Hospital](https://medirahospital.noviairawati.site/)
